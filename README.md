@@ -1,2 +1,3 @@
-# Deepsort-yolov4
-It's sooo easy. Just let me show you how to do it.
+Downloads the git from theAIGuysCode/yolov4-deepsorts
+====
+https://github.com/theAIGuysCode/yolov4-deepsort
