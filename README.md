@@ -28,6 +28,15 @@ Transfer darknet weights to tensorflow
 ====
     python save_model.py --model yolov4 
 
+Amend the classes
+====
+Change it to your classes of your trained model in file object_tracker.py line 162.
+
+![image](https://user-images.githubusercontent.com/46515944/183457191-d5135ed6-bf24-413f-a21c-04138275e4c5.png)
+
+Then, copy the file named coco.names to folder "data/classes".
+
+
 Run it on video
 ====
     python object_tracker.py --video ./data/video/test.mp4 --output ./outputs/demo.avi --model yolov4
