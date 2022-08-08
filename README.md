@@ -24,6 +24,14 @@ Install requirements
 ## For GPU
     pip install -r requirements-gpu.txt
     
-Do the test to make sure perfect
+Transfer darknet weights to tensorflow
 ====
+    python save_model.py --model yolov4 
 
+Run it on video
+====
+    python object_tracker.py --video ./data/video/test.mp4 --output ./outputs/demo.avi --model yolov4
+
+If you wanna use the web camara, you only add the parameter "0" before --video
+
+    python object_tracker.py --video 0 --output ./outputs/webcam.avi --model yolov4
