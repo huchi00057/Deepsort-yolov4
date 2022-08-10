@@ -1,12 +1,12 @@
-Downloads the git from theAIGuysCode/yolov4-deepsorts
+🔱Downloads the git from theAIGuysCode/yolov4-deepsorts
 ====
 https://github.com/theAIGuysCode/yolov4-deepsort
 
-Change the folder
+🔱Change the folder
 ====
     cd yolov4-deepsort
 
-Create a new environmet(Recommand)
+🔱Create a new environmet(Recommand)
 ====
 ## For CPU
     conda env create -f conda-cpu.yml
@@ -16,7 +16,7 @@ Create a new environmet(Recommand)
     conda env create -f conda-gpu.yml
     conda activate yolov4-gpu
     
-Install requirements
+🔱Install requirements
 ====
 ## For CPU
     pip install -r requirements.txt
@@ -24,11 +24,11 @@ Install requirements
 ## For GPU
     pip install -r requirements-gpu.txt
     
-Transfer darknet weights to tensorflow
+🔱Transfer darknet weights to tensorflow
 ====
     python save_model.py --model yolov4 
 
-Amend the classes
+🔱Amend the classes
 ====
 Change it to your classes of your trained model in file object_tracker.py line 162.
 
@@ -37,7 +37,7 @@ Change it to your classes of your trained model in file object_tracker.py line 1
 Then, copy the file named coco.names to folder "data/classes".
 
 
-Run it on video
+🔱Run it on video
 ====
     python object_tracker.py --video ./data/video/test.mp4 --output ./outputs/demo.avi --model yolov4
 
