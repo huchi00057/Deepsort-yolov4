@@ -1,3 +1,13 @@
+Contents
+====
+- [Downloads the git from theAIGuysCode/yolov4-deepsorts](#downloads-the-git-from-theAIGuysCode/yolov4-deepsorts)
+- [Change the folder](#change-the-folder)
+- [Create a new environmet](#create-a-new-environmet(recommand))
+- [Install requirements](#install-requirements)
+- [Transfer darknet weights to tensorflow](#transfer-darknet-weights-to-tensorflow)
+- [Amend the classes](#amend-the-classes)
+- [Run it on video](#run-it-on-video)
+
 🔱Downloads the git from theAIGuysCode/yolov4-deepsorts
 ====
 https://github.com/theAIGuysCode/yolov4-deepsort
