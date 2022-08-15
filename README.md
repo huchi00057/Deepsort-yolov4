@@ -1,6 +1,6 @@
 Contents
 ====
-- [Downloads the git from theAIGuysCode/yolov4-deepsorts](#downloads-the-git-from-theAIGuysCode/yolov4-deepsorts)
+- [Downloads the git from the AIGuysCode](#downloads-the-git-from-theAIGuysCode/yolov4-deepsorts)
 - [Change the folder](#change-the-folder)
 - [Create a new environmet](#create-a-new-environmet(recommand))
 - [Install requirements](#install-requirements)
